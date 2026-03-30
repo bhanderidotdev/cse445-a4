@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NationalPark xmlns="http://venus.sod.asu.edu/WSRepository/xml"
-              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:schemaLocation="http://venus.sod.asu.edu/WSRepository/xml https://bhanderidotdev.github.io/cse445-a4/NationalParks.xsd">
-
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="NationalParks.xsd">
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
     <Phone>888-297-2757</Phone>
     <Phone>866-499-2574</Phone>
-    <Address NearestAirport="Flagstaff">
+    <Address>
       <Number>8</Number>
       <Street>S Entrance Road</Street>
       <City>Grand Canyon</City>
@@ -17,42 +15,38 @@
     </Address>
   </NationalPark>
 
-  <!-- missing required attribute NearestAirport -->
   <NationalPark Rating="4.8">
     <Name>Yellowstone</Name>
+    <Name>Yellowstone National Park</Name>
     <Phone>307-344-7381</Phone>
-    <Address>
+    <Address NearestAirport="Bozeman Yellowstone International">
       <Number>2</Number>
-      <Street>Off Grand Loop Road</Street>
+      <Street>Officer Row</Street>
       <City>Yellowstone National Park</City>
       <State>WY</State>
       <Zip>82190</Zip>
     </Address>
   </NationalPark>
 
-  <!-- missing Phone -->
   <NationalPark>
     <Name>Yosemite</Name>
-    <Address NearestAirport="Fresno">
+    <Address NearestAirport="Fresno Yosemite International">
       <Number>9035</Number>
       <Street>Village Drive</Street>
-      <City>Yosemite Valley</City>
+      <City>Yosemite National Park</City>
       <State>CA</State>
       <Zip>95389</Zip>
     </Address>
   </NationalPark>
 
-  <!-- two Name elements + Address has no closing tag -->
   <NationalPark Rating="4.7">
     <Name>Zion</Name>
-    <Name>Zion National Park</Name>
     <Phone>435-772-3256</Phone>
-    <Address NearestAirport="Las Vegas">
+    <Address NearestAirport="St. George Regional">
       <Number>1</Number>
       <Street>Zion Park Boulevard</Street>
       <City>Springdale</City>
       <State>UT</State>
       <Zip>84767</Zip>
   </NationalPark>
-
 </NationalPark>
