@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <xsd:annotation>
-    <xsd:documentation xml:lang="en">National Parks Directory Example</xsd:documentation>
+    <xsd:documentation xml:lang="en">National Parks Directory</xsd:documentation>
   </xsd:annotation>
 
   <xsd:element name="NationalParks" type="NationalParksType"/>
